@@ -34,4 +34,4 @@ def main(args):
            print(f'{psw} not found')
 
 if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))
+    main(sys.argv[1:])
